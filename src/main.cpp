@@ -37,10 +37,14 @@ std::string fragmentShaderSource =
     "    FragColor = vec4(1.0f, 1.0f, 0.0f, 1.0f);\n"
     "}\n";
 
-void clean() {
-  delete letterI;
-  delete letterT;
-}
+    void clean() {
+      delete letterI;
+      delete letterT;
+      delete letterP;
+      delete letterR;
+      delete letterA;
+      delete letterK;
+    }
 
 void initLetters() {
   GLfloat spacing = 0.1f;
